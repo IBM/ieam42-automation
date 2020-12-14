@@ -1,0 +1,27 @@
+apiVersion: operator.ibm.com/v3
+kind: CommonService
+metadata:
+  name: common-service
+  namespace: ibm-common-services
+spec:
+  size: medium
+  services:
+    - name: ibm-management-ingress-operator
+      spec:
+        managementIngress:
+          replicas: 3
+    - name: ibm-mongodb-operator
+      spec:
+        mongoDB:
+          resources:
+            requests:
+              cpu: 500m
+              memory: 2000Mi
+    - name: ibm-monitoring-prometheusext-operator
+      spec:
+        prometheusExt:
+          prometheusConfig:
+            resource:
+              requests:
+                cpu: 160m
+                memory: 2500Mi

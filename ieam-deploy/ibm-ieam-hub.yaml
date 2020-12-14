@@ -1,0 +1,8 @@
+apiVersion: eam.edge.ibm.com/v1beta1
+kind: EamHub
+metadata:
+  name: ibm-edge
+  namespace: ibm-edge
+spec:
+  license:
+    accept: true

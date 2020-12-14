@@ -1,0 +1,254 @@
+{
+  "name": "sandbox-edge-workshop",
+  "type": [
+    "terraform_v0.12"
+  ],
+  "description": "Workspace for Sandbox Edge Workshop",
+  "tags": [
+    "app:sandbox-edge-workshop",
+    "owner:sandbox-edge-workshop",
+    "env:workshop"
+  ],
+  "template_repo": {
+    "url": "https://github.com/gargpriyank/IBM-Edge-Workshop"
+  },
+  "template_data": [
+    {
+      "folder": ".",
+      "type": "terraform_v0.12",
+      "variablestore": [
+        {
+          "name": "project_name",
+          "value": "sandbox-edge",
+          "type": "string"
+        },
+        {
+          "name": "environment",
+          "value": "workshop",
+          "type": "string"
+        },
+        {
+          "name": "resource_group",
+          "value": "sandbox-edge-workshop-rg",
+          "type": "string"
+        },
+        {
+          "name": "region",
+          "value": "us-south",
+          "type": "string"
+        },
+        {
+          "name": "datacenter",
+          "value": "dal12",
+          "type": "string"
+        },
+        {
+          "name": "machine_type",
+          "value": "b3c.8x32",
+          "type": "string"
+        },
+        {
+          "name": "additional_zone_names",
+          "value": "[]",
+          "type": "list(string)"
+        },
+        {
+          "name": "hardware",
+          "value": "shared",
+          "type": "string"
+        },
+        {
+          "name": "workers_count",
+          "value": "3",
+          "type": "number"
+        },
+        {
+          "name": "public_vlan_id",
+          "value": "2852297",
+          "type": "string"
+        },
+        {
+          "name": "private_vlan_id",
+          "value": "2852299",
+          "type": "string"
+        },
+        {
+          "name": "enable_public_service_endpoint",
+          "value": "true",
+          "type": "string"
+        },
+        {
+          "name": "enable_private_service_endpoint",
+          "value": "true",
+          "type": "string"
+        },
+        {
+          "name": "additional_zone_public_service_endpoint",
+          "value": "[]",
+          "type": "list(string)"
+        },
+        {
+          "name": "additional_zone_private_service_endpoint",
+          "value": "[]",
+          "type": "list(string)"
+        },
+        {
+          "name": "k8s_version",
+          "value": "4.4_openshift",
+          "type": "string"
+        },
+        {
+          "name": "enable_db_service",
+          "value": "true",
+          "type": "bool"
+        },
+        {
+          "name": "db_name",
+          "value": "sandbox-edge-workshop-cloudant",
+          "type": "string"
+        },
+        {
+          "name": "db_plan",
+          "value": "standard",
+          "type": "string"
+        },
+        {
+          "name": "db_service_name",
+          "value": "cloudantnosqldb",
+          "type": "string"
+        },
+        {
+          "name": "enable_event_streams_service",
+          "value": "true",
+          "type": "bool"
+        },
+        {
+          "name": "es_kafka_plan",
+          "value": "standard",
+          "type": "string"
+        },
+        {
+          "name": "es_kafka_service_name",
+          "value": "sandbox-edge-workshop-kafka",
+          "type": "string"
+        },
+        {
+          "name": "es_kafka_topic_name",
+          "value": "sandbox-edge-workshop-topic-1",
+          "type": "string"
+        },
+        {
+          "name": "es_kafka_topic_partitions",
+          "value": "1",
+          "type": "number"
+        },
+        {
+          "name": "es_kafka_topic_cleanup_policy",
+          "value": "compact,delete",
+          "type": "string"
+        },
+        {
+          "name": "es_kafka_topic_retention_ms",
+          "value": "86400000",
+          "type": "number"
+        },
+        {
+          "name": "es_kafka_topic_retention_bytes",
+          "value": "1073741824",
+          "type": "number"
+        },
+        {
+          "name": "es_kafka_topic_segment_bytes",
+          "value": "536870912",
+          "type": "number"
+        },
+        ,
+        {
+          "name": "bm_hostname",
+          "value": "sandbox-edge-workshop-bm",
+          "type": "string"
+        },
+        {
+          "name": "bm_domain",
+          "value": "IBM-Client-Developer-Advocacy.cloud",
+          "type": "string"
+        },
+        {
+          "name": "bm_package_key_name",
+          "value": "SINGLE_E31270_V6",
+          "type": "string"
+        },
+        {
+          "name": "bm_process_key_name",
+          "value": "INTEL_INTEL_XEON_E31270_V6_3_80",
+          "type": "string"
+        },
+        {
+          "name": "bm_memory",
+          "value": "64",
+          "type": "number"
+        },
+        {
+          "name": "bm_os_key_name",
+          "value": "OS_UBUNTU_18_04_LTS_BIONIC_BEAVER_MINIMAL",
+          "type": "string"
+        },
+        {
+          "name": "bm_datacenter",
+          "value": "[\"dal10\", \"dal12\"]",
+          "type": "list(string)"
+        },
+        {
+          "name": "bm_network_speed",
+          "value": "1000",
+          "type": "number"
+        },
+        {
+          "name": "bm_public_bandwidth",
+          "value": "500",
+          "type": "number"
+        },
+        {
+          "name": "bm_disk_key_names",
+          "value": "[\"HARD_DRIVE_1_00_TB_SATA_2\"]",
+          "type": "list(string)"
+        },
+        {
+          "name": "bm_hourly_billing",
+          "value": "false",
+          "type": "bool"
+        },
+        {
+          "name": "bm_public_vlan_id",
+          "value": "2832802",
+          "type": "number"
+        },
+        {
+          "name": "bm_private_vlan_id",
+          "value": "2832804",
+          "type": "number"
+        },
+        {
+          "name": "vs_hostname",
+          "value": "sandbox-edge-workshop-vs",
+          "type": "string"
+        },
+        {
+          "name": "vs_flavor_key_name",
+          "value": "B1_8X32X25",
+          "type": "string"
+        },
+        {
+          "name": "vs_datacenter",
+          "value": "[]",
+          "type": "list(string)"
+        },
+        {
+          "name": "vs_os_reference_code",
+          "value": "UBUNTU_18_64",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

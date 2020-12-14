@@ -1,0 +1,10 @@
+kind: Subscription
+apiVersion: operators.coreos.com/v1alpha1
+metadata:
+  name: ibm-operator-ieam-subscribe
+  namespace: ibm-edge
+spec:
+  channel: v4.2
+  name: ibm-eamhub-operator-catalog
+  source: ibm-operator-catalog
+  sourceNamespace: openshift-marketplace
