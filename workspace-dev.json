@@ -10,7 +10,7 @@
     "env:dev"
   ],
   "template_repo": {
-    "url": "https://github.com/gargpriyank/IBM-Edge-Workshop"
+    "url": "https://github.com/IBM/ieam42-automation"
   },
   "template_data": [
     {

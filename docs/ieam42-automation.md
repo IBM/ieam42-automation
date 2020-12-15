@@ -30,15 +30,16 @@ variable `IBM_CP_ENTITLEMENT_KEY`.
 export IBM_CP_ENTITLEMENT_KEY=<Your_IBM_Cloud_Pak_Entitlement_Key>
 ```
 
-2) Create `workspace` directory in your local linux/mac box. Download **IBM-Edge-Workshop** project code.
+2) (If not done in the previous step) Create `workspace` directory in your local linux/mac box. Download **ieam42-automation** project code.
 
 ```markdown
 mkdir <your_home_dir>/workspace
 cd <your_home_dir>/workspace
-git clone https://github.com/gargpriyank/IBM-Edge-Workshop.git
-cd IBM-Edge-Workshop
+git clone https://github.com/IBM/ieam42-automation.git
+cd ieam42-automation
 chmod +x script/*.sh
 ```
+
 3) Log in to OpenShift cluster and execute the shell script `ieam-deploy.sh`. This will deploy the Common Services and IEAM and create IEAM hub.
    
 ```markdown
