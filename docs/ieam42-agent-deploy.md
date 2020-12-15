@@ -1,6 +1,6 @@
-# IBM Edge Application Manager (IEAM) 4.2 Agent - Installation
+# Install the IEAM 4.2 agent
 
-This page contains the bash commands to automate the deployment of the IEAM 4.2 agent. As depicted in the figure in below, the script executes the 
+This page contains the bash commands to automate the installation of the IEAM 4.2 agent. As depicted in the figure in below, the script executes the 
 following steps sequentially:
 
 1. Publish the sample edge services such as helloworld, cpu2eventstreams, cpu and gps in multi-arch environments.

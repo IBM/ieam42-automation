@@ -1,4 +1,4 @@
-# OpenShift Classic Cluster - Automated Provisioning
+# Provision a Red Hat OpenShift Classic Cluster
 
 This page contains the terraform and IBM schematics code to provision Red Hat OpenShift Classic cluster, Bare Metal Server, 
 Virtual Server, IBM Cloudant database, and IBM Event Streams.
