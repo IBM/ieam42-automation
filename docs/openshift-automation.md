@@ -256,4 +256,4 @@ oc get pods -A
 
 ## Next Step
 
-- [IBM Edge Application Manager (IEAM) 4.2 - Automated Installation](ieam42-automation.md)
+- [Install the IEAM 4.2 hub](ieam42-automation.md)

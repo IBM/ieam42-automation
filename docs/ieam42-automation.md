@@ -107,4 +107,4 @@ ls /usr/local/bin/agent-uninstall.sh
 
 ## Next Step
 
-- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)
+- [Install the IEAM 4.2 agent](ieam42-agent-deploy.md)
