@@ -70,7 +70,7 @@ ibmcloud iam api-key-create TerraformKey -d "API Key for Terraform" --file ~/ibm
 export IC_API_KEY=$(grep '"apikey":' ~/ibm_api_key.json | sed 's/.*: "\(.*\)".*/\1/')
 ```
 
-### How to use with Terraform
+## How to use with Terraform
 
 A sample `terraform.tfvars` file is provided with this example. This file creates resources in Dallas region in single zone. A multi-zone
 sample file is available in **multizone** directory.
@@ -114,7 +114,7 @@ Optional: In case you want to clean up the infrastructure, execute below Terrafo
 terraform destroy
 ```
 
-### How to use with Schematics
+## How to use with Schematics
 
 Schematics delivers Terraform as a Service. 
 
@@ -222,7 +222,7 @@ ibmcloud schematics workspace delete --id $WORKSPACE_ID
 ibmcloud schematics workspace list
 ```
 
-### Validation
+## Validation
 
 To have access to the IKS cluster execute this **IBM Cloud CLI** command (`NAME` is the cluster name):
 
