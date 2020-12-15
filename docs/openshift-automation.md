@@ -41,8 +41,7 @@ Create `workspace` directory in your local linux/mac box. Download **ieam42-auto
 mkdir <your_home_dir>/workspace
 cd <your_home_dir>/workspace
 git clone https://github.com/IBM/ieam42-automation.git
-cd ieam42-automation
-chmod +x script/*.sh
+cd ieam42-automation/iac
 ```
 
 Executing these commands you are validating part of these requirements:

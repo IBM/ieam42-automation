@@ -14,6 +14,8 @@ device (edge node). It contains.
 - This page contains the bash commands to automate the installation of the IEAM 4.2 hub on OpenShift cluster.
 - The bash commands to automate the installation of the IEAM 4.2 agent on the edge node.
 
+> Note: You can skip Task 1 in below if you already have OpenShift cluster provisioned.
+
 ## Tasks
 
 1. [Provision a Red Hat OpenShift Classic Cluster](docs/openshift-automation.md)
