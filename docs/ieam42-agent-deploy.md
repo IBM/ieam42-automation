@@ -16,7 +16,7 @@ following steps sequentially:
 - [Prerequisites](#prerequisites)
 - [Install IEAM 4.2 agent on edge node](#install-ieam-42-agent-on-the-edge-node)
 
-### Prerequisites
+## Prerequisites
 
 - IEAM 4.2 is already installed and agent installation files are shared and copied in your local home directory.
 - Root privileges on the edge node.

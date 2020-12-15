@@ -7,7 +7,7 @@ This page contains the bash commands to automate the installation of the IEAM 4.
 - [Prerequisites](#prerequisites)
 - [Install IEAM 4.2 and extract edge agent files](#install-ieam-42-and-extract-edge-agent-files)
 
-### Prerequisites
+## Prerequisites
 
 The requirements are documented in the 
 [Environment Setup](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment). It includes:
