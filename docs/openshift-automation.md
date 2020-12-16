@@ -196,25 +196,25 @@ sample file is available in **multizone** directory.
     ```markdown
     # Create workspace:
     ibmcloud schematics workspace list
-    ibmcloud schematics workspace new --file workspace-workshop.json #Create dev environment workspace.
-    ibmcloud schematics workspace list          # Identify the workspace_ID
+    ibmcloud schematics workspace new --file workspace-workshop.json  # Create the new workspace.
+    ibmcloud schematics workspace list  # List all the workspaces.
     
     # Create plan: 
-    ibmcloud schematics plan --id $WORKSPACE_ID  # Identify the Activity_ID
+    ibmcloud schematics plan --id $WORKSPACE_ID  # Create the schematics plan.
     ibmcloud schematics logs --id $WORKSPACE_ID --act-id Activity_ID
     
     # Apply plan:
-    ibmcloud schematics apply --id $WORKSPACE_ID # Identify the Activity_ID
+    ibmcloud schematics apply --id $WORKSPACE_ID  # Apply the schematics plan to reach to the desired state.
     ibmcloud schematics logs  --id $WORKSPACE_ID --act-id Activity_ID
     ```
 
-4. Optional: In case you want to clean up the infrastructure, execute below Schematics command:
+4. Optional: Execute below Schematics command to destroy the infrastructure.
 
     ```markdown
-    ibmcloud schematics destroy --id $WORKSPACE_ID # Identify the Activity_ID
+    ibmcloud schematics destroy --id $WORKSPACE_ID  # Destroy the cloud resources associated to the workspace.
     ibmcloud schematics logs  --id $WORKSPACE_ID --act-id Activity_ID
     
-    ibmcloud schematics workspace delete --id $WORKSPACE_ID
+    ibmcloud schematics workspace delete --id $WORKSPACE_ID  # Delete the schematics workspace.
     ibmcloud schematics workspace list
     ```
 
