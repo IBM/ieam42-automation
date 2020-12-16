@@ -35,6 +35,7 @@ following steps sequentially:
     ```markdown
     useradd -s /bin/bash -m -d /home/ibm-workshop -G sudo ibm-workshop  # You are free to choose any user name and group
     usermod -g users ibm-workshop
+    groupadd docker
     usermod -a -G docker ibm-workshop
     passwd ibm-workshop
     su - ibm-workshop
@@ -49,13 +50,13 @@ following steps sequentially:
     export HZN_ORG_ID=sandbox-edge-workshop-ieam-cluster    # This should be same organization id you created while Installing IEAM hub
     ```
 
-3. Create placeholder directory **workspace** for edge resources and copy the files **agent-install.sh** and **agent-uninstall.sh** generated above 
-   into **workspace** directory.
+3. Create placeholder directory **workspace** for edge resources and SFTP the files **agent-install.sh** and **agent-uninstall.sh** generated during
+   IEAM 4.2 installation into **workspace** directory.
 
     ```markdown
     mkdir /home/ibm-workshop/workspace
     cd /home/ibm-workshop/workspace
-    cp <your_home_dir>/workspace /home/ibm-workshop/workspace   # <your_home_dir> is in your local system
+    scp <your_home_dir>/workspace /home/ibm-workshop/workspace   # <your_home_dir> is in your local system
     ```
 
 4. Execute shell script `agent-install.sh` as in below. This will:
