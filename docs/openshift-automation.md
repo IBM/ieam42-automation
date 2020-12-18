@@ -248,4 +248,4 @@ After the infrastructure is provisioned, validate it using one of the Terraform 
 
 ## Next Step
 
-- [Install the IEAM 4.2 hub](ieam42-automation.md)
+- [Install the IEAM 4.2 Management hub](ieam42-automation.md)
