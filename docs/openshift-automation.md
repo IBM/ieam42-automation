@@ -133,17 +133,17 @@ sample file is available in **multizone** directory.
           "variablestore": [
             {
               "name": "project_name",
-              "value": "sandbox-edge",
+              "value": "iac-example",
               "type": "string"
             },
             {
               "name": "environment",
-              "value": "workshop",
+              "value": "dev",
               "type": "string"
             },
             {
               "name": "resource_group",
-              "value": "sandbox-edge-workshop-rg",
+              "value": "iac-example-dev-rg",
               "type": "string"
             },
             {

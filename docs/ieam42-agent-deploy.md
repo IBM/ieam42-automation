@@ -47,7 +47,7 @@ following steps sequentially:
     export HZN_EXCHANGE_USER_AUTH=iamapikey:<api-key-generated-in-ieam-installation>
     export HZN_EXCHANGE_URL=<ieam-management-hub-ingress>/edge-exchange/v1  # <ieam-management-hub-ingress> is same as CLUSTER_URL, exported in IEAM Installment
     export HZN_FSS_CSSURL=<ieam-management-hub-ingress>/edge-css/   # <ieam-management-hub-ingress> is same as CLUSTER_URL, exported in IEAM installation
-    export HZN_ORG_ID=sandbox-edge-workshop-ieam-cluster    # This should be same organization id you created while Installing IEAM hub
+    export HZN_ORG_ID=iac-example-ieam-cluster    # This should be same organization id you created while Installing IEAM hub
     ```
 
 3. Create placeholder directory **workspace** for edge resources and SFTP the files **agent-install.sh** and **agent-uninstall.sh** generated during
