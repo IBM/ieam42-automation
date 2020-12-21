@@ -33,12 +33,12 @@ following steps sequentially:
     > Note: For edge node only Linux operating system is supported.
 
     ```markdown
-    useradd -s /bin/bash -m -d /home/ibm-workshop -G sudo ibm-workshop  # You are free to choose any user name and group
-    usermod -g users ibm-workshop
+    useradd -s /bin/bash -m -d /home/ieam-dev -G sudo ieam-dev  # You are free to choose any user name and group
+    usermod -g users ieam-dev
     groupadd docker
-    usermod -a -G docker ibm-workshop
-    passwd ibm-workshop
-    su - ibm-workshop
+    usermod -a -G docker ieam-dev
+    passwd ieam-dev
+    su - ieam-dev
     ```
 
 2. Export all the necessary environment variables.
@@ -54,9 +54,9 @@ following steps sequentially:
    IEAM 4.2 installation into **workspace** directory.
 
     ```markdown
-    mkdir /home/ibm-workshop/workspace
-    cd /home/ibm-workshop/workspace
-    scp <your_home_dir>/workspace /home/ibm-workshop/workspace   # <your_home_dir> is in your local system
+    mkdir /home/ieam-dev/workspace
+    cd /home/ieam-dev/workspace
+    scp <your_home_dir>/workspace /home/ieam-dev/workspace   # <your_home_dir> is in your local system
     ```
 
 4. Execute shell script `agent-install.sh` as in below. This will:

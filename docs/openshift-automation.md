@@ -115,10 +115,10 @@ sample file is available in **multizone** directory.
 
 Schematics delivers the Terraform as a Service. Below are the steps to create and run schematics workspace to provision cloud resources.
 
-1. A sample `workspace-workshop.json` file is provided with this example. This file creates resources in Dallas region in single zone. A multi-zone
+1. A sample `workspace-dev.json` file is provided with this example. This file creates resources in Dallas region in single zone. A multi-zone
 sample file is available in **multizone** directory.
 
-    > Note: Please replace the values of the variables as per your project requirement. It is advisable to not to commit `workspace-workshop.json` file
+    > Note: Please replace the values of the variables as per your project requirement. It is advisable to not to commit `workspace-dev.json` file
     > since it may contain sensitive information like password.**
     
     ```markdown
@@ -196,7 +196,7 @@ sample file is available in **multizone** directory.
     ```markdown
     # Create workspace:
     ibmcloud schematics workspace list
-    ibmcloud schematics workspace new --file workspace-workshop.json  # Create the new workspace.
+    ibmcloud schematics workspace new --file workspace-dev.json  # Create the new workspace.
     ibmcloud schematics workspace list  # List all the workspaces.
     
     # Create plan: 
