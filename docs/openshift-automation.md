@@ -191,7 +191,7 @@ sample file is available in **multizone** directory.
     ibmcloud sl vlan list -d <zone_name>
     ```
 
-3. Execute the below Schematics commands.
+3. Execute the below Schematics commands to create the plan and execute it. Set the api key variable `ibmcloud_api_key` before creating the plan.
 
     ```markdown
     # Create workspace:
@@ -202,7 +202,7 @@ sample file is available in **multizone** directory.
     # Create plan: 
     ibmcloud schematics plan --id $WORKSPACE_ID  # Create the schematics plan.
     ibmcloud schematics logs --id $WORKSPACE_ID --act-id Activity_ID
-    
+   
     # Apply plan:
     ibmcloud schematics apply --id $WORKSPACE_ID  # Apply the schematics plan to reach to the desired state.
     ibmcloud schematics logs  --id $WORKSPACE_ID --act-id Activity_ID
