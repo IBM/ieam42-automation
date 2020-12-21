@@ -1,5 +1,5 @@
 {
-  "name": "iac-example",
+  "name": "iac-example-dev",
   "type": [
     "terraform_v0.12"
   ],
@@ -10,7 +10,7 @@
     "env:dev"
   ],
   "template_repo": {
-    "url": "https://github.com/IBM/ieam42-automation"
+    "url": "https://github.com/IBM/ieam42-automation/iac"
   },
   "template_data": [
     {
