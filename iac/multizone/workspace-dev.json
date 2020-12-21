@@ -10,7 +10,8 @@
     "env:dev"
   ],
   "template_repo": {
-    "url": "https://github.com/IBM/ieam42-automation"
+    "url": "https://github.com/IBM/ieam42-automation",
+    "datafolder": "iac"
   },
   "template_data": [
     {
