@@ -19,17 +19,17 @@ Below is the network architecture of the IBM Edge components produced by this pr
 ## Prerequisites
 
 The requirements are documented in the 
-[Environment Setup](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment). It includes:
+[Environment Setup](https://github.com/IBM/ieam42-automation/blob/main/docs/setup-environment.md). It includes:
 
 - Have an IBM Cloud account with required privileges
-- [Install IBM Cloud CLI](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#install-ibm-cloud-cli)
-- [Install the IBM Cloud CLI Plugins](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#ibm-cloud-cli-plugins) 
+- [Install IBM Cloud CLI](https://github.com/IBM/ieam42-automation/blob/main/docs/setup-environment.md#install-ibm-cloud-cli)
+- [Install the IBM Cloud CLI Plugins](https://github.com/IBM/ieam42-automation/blob/main/docs/setup-environment.md#ibm-cloud-cli-plugins) 
   `infrastructure-service`, `schematics` and `container-registry`.
-- [Log in to IBM Cloud with the CLI](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#login-to-ibm-cloud)
-- [Install Terraform](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#install-terraform)
-- [Configure access to IBM Cloud](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#configure-access-to-ibm-cloud) for
+- [Log in to IBM Cloud with the CLI](https://github.com/IBM/ieam42-automation/blob/main/docs/setup-environment.md#login-to-ibm-cloud)
+- [Install Terraform](https://github.com/IBM/ieam42-automation/blob/main/docs/setup-environment.md#install-terraform)
+- [Configure access to IBM Cloud](https://github.com/IBM/ieam42-automation/blob/main/docs/setup-environment.md#configure-access-to-ibm-cloud) for
   Terraform and the IBM Cloud CLI
-- [Install IBM Cloud Terraform Provider](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#configure-access-to-ibm-cloud)
+- [Install IBM Cloud Terraform Provider](https://github.com/IBM/ieam42-automation/blob/main/docs/setup-environment.md#configure-access-to-ibm-cloud)
 - Install the following tools:
   - [IBM Cloud Pak CLI (cloudctl) and OpenShift client CLI (oc)](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/cli/cloudctl_oc_cli.html)
   - [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
