@@ -58,7 +58,7 @@ $ ibmcloud version
 ibmcloud version 1.0.0+908f90a-2020-03-30T10:19:41+00:00
 ```
 
-### IBM Cloud CLI Plugins
+## IBM Cloud CLI Plugins
 
 The next steps is to install all the required plugins, for Infrastructure as Code you'll need the `vpc-infrastructure` (aka `infrastructure-service`) and the `schematics` plugins, to install them execute the following command:
 
@@ -79,7 +79,7 @@ When a plugin version is out-of-date, you will see a reminder the first time you
 ibmcloud plugin update
 ```
 
-### Login to IBM Cloud
+## Login to IBM Cloud
 
 Log in to IBM Cloud with the `login` sub-command. You may need to use the parameter `-r` to select a region (i.e. `us-south` or `eu-gb`), `-g` to select a resource group (i.e. `Default`), `-c` to select an account ID and `--sso` to request a one-time password if your IBMid is federated with another identity provider. When not using `--sso`, the command will interactively prompt for user name and password. Although these can be specified with the `-u` or `-p` parameters, for security reasons, it's not recommended to do so.
 
