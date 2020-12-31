@@ -1,13 +1,13 @@
-kind: CatalogSource
 apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
 metadata:
-  name: ibm-operator-catalog
+  name: opencloud-operators
   namespace: openshift-marketplace
 spec:
-  displayName: IBM Operator Catalog
+  displayName: IBMCS Operators
   publisher: IBM
   sourceType: grpc
-  image: docker.io/ibmcom/ibm-operator-catalog:latest
+  image: quay.io/opencloudio/ibm-common-service-catalog:latest
   updateStrategy:
     registryPoll:
       interval: 45m
