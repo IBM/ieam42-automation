@@ -1,4 +1,4 @@
-# Extract the IEAM 4.2 Agent Files
+# Extract the IEAM 4.2 agent files
 
 1. Download the IBM Edge Application Manager 4.2 Agent package 
 from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) and save it in the directory 
