@@ -56,4 +56,4 @@ or **Completed** status.
 
 ## Next Step
 
-- [Extract IEAM 4.2 Agent Files](extract-edge-agent-files.md)
+- [Extract the IEAM 4.2 agent files](extract-edge-agent-files.md)
