@@ -56,4 +56,4 @@ or **Completed** status.
 
 ## Next Step
 
-- [Install the IEAM 4.2 agent](ieam42-agent-deploy.md)
+- [Extract IEAM 4.2 Agent Files](extract-edge-agent-files.md)
