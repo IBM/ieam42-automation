@@ -20,5 +20,5 @@ device (edge node). It contains.
 
 1. [Provision a Red Hat OpenShift Classic Cluster](docs/openshift-automation.md)
 2. [Install the IEAM 4.2 Management hub](docs/ieam42-automation.md)
-3. [Extract the IEAM 4.2 Agent Files](docs/extract-edge-agent-files.md)
+3. [Extract the IEAM 4.2 agent Files](docs/extract-edge-agent-files.md)
 3. [Install the IEAM 4.2 agent](docs/ieam42-agent-deploy.md)
