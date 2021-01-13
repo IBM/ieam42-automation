@@ -13,6 +13,7 @@ The requirements are documented in the
 [Environment Setup](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment). It includes:
 
 - Have an IBM Cloud account with required privileges
+- OpenShift cluster 4.4+ is deployed on IBM Cloud
 - [Install IBM Cloud CLI](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#install-ibm-cloud-cli)
 - [Log in to IBM Cloud with the CLI](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#login-to-ibm-cloud)
 - Install the following tools:
