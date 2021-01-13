@@ -16,7 +16,7 @@ device (edge node). It contains.
 
 Below is the typical network architecture of the IBM Edge components integrated with IBM cloud services that can be implemented using this code.
 
-![Network Architecture](images/network-architecture.png)
+![Network Architecture](docs/images/network-architecture.png)
 
 > Note: You can skip Task 1 in below if you already have OpenShift cluster provisioned.
 
