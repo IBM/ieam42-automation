@@ -3,10 +3,6 @@
 This page contains the terraform and IBM schematics code to provision Red Hat OpenShift Classic cluster, Bare Metal Server, 
 Virtual Server, IBM Cloudant database, and IBM Event Streams.
 
-Below is the network architecture of the IBM Edge components produced by this project code.
-
-![Network Architecture](images/network-architecture.png)
-
 ## Navigation
 
 - [Prerequisites](#prerequisites)
