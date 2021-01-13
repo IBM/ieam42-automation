@@ -14,6 +14,10 @@ device (edge node). It contains.
 - This page contains the bash commands to automate the installation of the IEAM 4.2 Management hub on OpenShift cluster.
 - The bash commands to automate the installation of the IEAM 4.2 agent on the edge node.
 
+Below is the typical network architecture of the IBM Edge components integrated with IBM Cloud services that can be implemented using this code.
+
+![Network Architecture](docs/images/network-architecture.png)
+
 > Note: You can skip Task 1 in below if you already have OpenShift cluster provisioned.
 
 ## Tasks
