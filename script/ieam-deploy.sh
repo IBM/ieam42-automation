@@ -25,7 +25,7 @@ oc apply -f ieam-deploy/ibm-operator-ieam-subscribe.yaml
 sleep 300
 
 # Configure common services to add mongodb and prometheus operators configuration
-oc apply -f ieam-deploy/ibm-common-services.yaml
+#oc apply -f ieam-deploy/ibm-common-services.yaml 
 
 # Create IEAM hub
 oc apply -f ieam-deploy/ibm-ieam-hub.yaml
