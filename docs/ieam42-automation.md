@@ -5,7 +5,7 @@ This page contains the bash commands to automate the installation of the IEAM 4.
 ## Navigation
 
 - [Prerequisites](#prerequisites)
-- [Install IEAM 4.2.1](#install-ieam-42)
+- [Install IEAM 4.2.1](#install-ieam-421)
 
 ## Prerequisites
 

@@ -12,7 +12,7 @@ following steps sequentially:
 ## Navigation
 
 - [Prerequisites](#prerequisites)
-- [Install IEAM 4.2.1 agent on edge node](#install-ieam-42-agent-on-the-edge-node)
+- [Install IEAM 4.2.1 agent on edge node](#install-ieam-421-agent-on-the-edge-node)
 
 ## Prerequisites
 
