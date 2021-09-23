@@ -19,7 +19,7 @@ cd ../agent && tar -zxvf edge-packages*.tar.gz
 #sudo dnf install -yq ./edge-packages-4.2.1/linux/rpm/x86_64/horizon-cli-*.x86_64.rpm
 
 #Install hzn CLI in MacOS
-sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain edge-packages-4.2.0/macos/pkg/x86_64/horizon-cli.crt && \
+sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain edge-packages-4.2.1/macos/pkg/x86_64/horizon-cli.crt && \
 sudo installer -pkg edge-packages-4.2.1/macos/pkg/x86_64/horizon-cli-*.pkg -target /
 
 # Create first organization and publish the sample patterns and services in IEAM hub
