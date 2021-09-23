@@ -1,28 +1,28 @@
-# Install the IEAM 4.2 agent
+# Install the IEAM 4.2.1 agent
 
-This page contains the bash commands to automate the installation of the IEAM 4.2 agent. The script executes the 
+This page contains the bash commands to automate the installation of the IEAM 4.2.1 agent. The script executes the 
 following steps sequentially:
 
 1. Publish the sample edge services such as helloworld, cpu2eventstreams, cpu and gps in multi-arch environments.
-2. Install the IEAM 4.2 agent on the edge node.
-3. Create an agreement in between IEAM 4.2 agent on the edge node and the agbot on the IEAM.
+2. Install the IEAM 4.2.1 agent on the edge node.
+3. Create an agreement in between IEAM 4.2.1 agent on the edge node and the agbot on the IEAM.
 4. Register the edge node with the pattern **pattern-ibm.helloworld**.
 5. Deploy the sample helloworld service.
 
 ## Navigation
 
 - [Prerequisites](#prerequisites)
-- [Install IEAM 4.2 agent on edge node](#install-ieam-42-agent-on-the-edge-node)
+- [Install IEAM 4.2.1 agent on edge node](#install-ieam-42-agent-on-the-edge-node)
 
 ## Prerequisites
 
-- IEAM 4.2 is already installed and agent installation files are shared and copied in your local home directory.
+- IEAM 4.2.1 is already installed and agent installation files are shared and copied in your local home directory.
 - Root privileges on the edge node.
 - Install the following tools:
    - [make](https://www.gnu.org/software/make/)
    - [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 
-## Install IEAM 4.2 agent on the edge node
+## Install IEAM 4.2.1 agent on the edge node
 
 1. Log in to your edge node using `bash` with root privileges. 
    Install [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
@@ -49,7 +49,7 @@ following steps sequentially:
     ```
 
 3. Create placeholder directory **workspace** for edge resources and SFTP the files **agent-install.sh** and **agent-uninstall.sh** generated during
-   IEAM 4.2 installation into **workspace** directory.
+   IEAM 4.2.1 installation into **workspace** directory.
 
     ```markdown
     mkdir /home/ieam-dev/workspace

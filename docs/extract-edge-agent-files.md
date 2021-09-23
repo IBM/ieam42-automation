@@ -1,6 +1,6 @@
-# Extract the IEAM 4.2 agent files
+# Extract the IEAM 4.2.1 agent files
 
-1. Download the IBM Edge Application Manager 4.2 Agent package 
+1. Download the IBM Edge Application Manager 4.2.1 Agent package 
 from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) and save it in the directory 
 `<your_home_dir/workspace`. Export the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name 
 and execute the shell script `install_hzn_cli.sh`. This will install the horizon CLI.
@@ -54,4 +54,4 @@ the edge node.
     
 ## Next Step
 
-- [Install the IEAM 4.2 agent](ieam42-agent-deploy.md)
+- [Install the IEAM 4.2.1 agent](ieam42-agent-deploy.md)

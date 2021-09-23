@@ -1,11 +1,11 @@
-# Install the IEAM 4.2 Management hub
+# Install the IEAM 4.2.1 Management hub
 
-This page contains the bash commands to automate the installation of the IEAM 4.2 Management hub.
+This page contains the bash commands to automate the installation of the IEAM 4.2.1 Management hub.
 
 ## Navigation
 
 - [Prerequisites](#prerequisites)
-- [Install IEAM 4.2](#install-ieam-42)
+- [Install IEAM 4.2.1](#install-ieam-42)
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ The requirements are documented in the
   - [IBM Cloud Pak CLI (cloudctl) and OpenShift client CLI (oc)](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/cli/cloudctl_oc_cli.html)
   - [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 
-## Install IEAM 4.2
+## Install IEAM 4.2.1
 
 1. Log in to your local linux/mac box with admin privileges. 
 Retrieve and copy the [entitlement key](https://myibm.ibm.com/products-services/containerlibrary) and export the environment 
@@ -57,4 +57,4 @@ or **Completed** status.
 
 ## Next Step
 
-- [Extract the IEAM 4.2 agent files](extract-edge-agent-files.md)
+- [Extract the IEAM 4.2.1 agent files](extract-edge-agent-files.md)
